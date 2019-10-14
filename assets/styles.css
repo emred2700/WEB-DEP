@@ -1,0 +1,85 @@
+ body{
+    margin: 0;
+    padding: 0;
+  }
+
+  button{
+    float: left;
+    margin: 3px 0px 3px 0px;
+    height: 34px;
+    padding: 5px;
+    background-color: #E8F2FF;
+    background-color:#EDEDED;
+    border:1px grey solid;
+  }
+  #html_button{
+    border-radius: 5px 0px 0px 5px;
+  }
+  #output_button{
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  iframe{
+      padding:0;
+      margin:0;
+      border:0px grey solid;
+  }
+
+  #tab{
+    width: 100%;
+    height: 40px;
+    background-color: #EDEDED;
+    border-left:1px black solid;
+  }
+
+  #title{
+    margin-top: 7px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 22px;
+    width: 200px;
+    height: 33px;
+    float:left;
+  }
+
+  #menu{
+    width: 500px;
+    margin: 0 auto;
+    height: 40px;
+  }
+
+  #html_window{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 94%;
+    display: none;
+  }
+
+  #css_window{
+    float: left;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 94%;
+    display: none;
+  }
+
+  #js_window{
+    float: left;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 94%;
+    display: none;
+  }
+
+  #output_window{
+    float: left;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 94%;
+    display: none;
+  }
